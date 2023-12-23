@@ -33,8 +33,7 @@ def determine_distance(g1, g2, rs_to_expand, cs_to_expand, expansion_factor):
 
 
 def sum_min_distances_between_galaxies(expansion_factor):
-    rs = []
-    cs = []
+    rs, cs = [], []
     galaxies = find_galaxies()
     for r, c in galaxies:
         rs.append(r)
