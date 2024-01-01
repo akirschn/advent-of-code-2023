@@ -64,7 +64,7 @@ def find_part_numbers_adjacent_to_asterisk(lines):
     return part_numbers
 
 
-with open('res/day03.txt') as f:
+with open('input/day03.txt') as f:
     inputs = [
         line
         for line in f.read().splitlines()

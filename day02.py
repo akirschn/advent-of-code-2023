@@ -38,7 +38,7 @@ def parse_line(line):
     return rgb
 
 
-with open('res/day02.txt') as f:
+with open('input/day02.txt') as f:
     inputs = [
         parse_line(line)
         for line in f.read().splitlines()

@@ -1,4 +1,4 @@
-with open('res/day05.txt') as f:
+with open('input/day05.txt') as f:
     blocks = f.read().split('\n\n')
     seeds = [int(seed) for seed in blocks[0].split(':')[1].split()]
     seed_ranges = [

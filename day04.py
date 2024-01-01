@@ -35,7 +35,7 @@ def parse_cards(line):
     return 1, winning, own
 
 
-with open('res/day04.txt') as f:
+with open('input/day04.txt') as f:
     inputs = [
         parse_cards(line)
         for line in f.read().splitlines()

@@ -1,4 +1,4 @@
-with open('res/day16.txt', 'r') as f:
+with open('input/day16.txt', 'r') as f:
     GRID = []
     for idx, line in enumerate(f.read().splitlines()):
         GRID.insert(idx, list(line))

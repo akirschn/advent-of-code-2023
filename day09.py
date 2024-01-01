@@ -1,6 +1,6 @@
 from itertools import pairwise
 
-with open('res/day09.txt', 'r') as f:
+with open('input/day09.txt', 'r') as f:
     sequences = [line.split() for line in f.readlines()]
 
 

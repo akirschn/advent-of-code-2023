@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-with open('res/day15.txt', 'r') as f:
+with open('input/day15.txt', 'r') as f:
     sequence = f.read().split(',')
 
 

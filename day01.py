@@ -39,7 +39,7 @@ def extract_number(line):
     return int(mapped_numbers[0] + mapped_numbers[-1])
 
 
-with open('res/day01.txt') as f:
+with open('input/day01.txt') as f:
     inputs = f.read().splitlines()
     print(part_one(inputs))
     print(part_two(inputs))

@@ -4,7 +4,7 @@ from collections import Counter
 WEIGHTS = ['A', 'K', 'Q', 'J', 'T', '9', '8', '7', '6', '5', '4', '3', '2']
 WEIGHTS_WITH_JOKER_USAGE = ['A', 'K', 'Q', 'T', '9', '8', '7', '6', '5', '4', '3', '2', 'J']
 
-with open('res/day07.txt') as f:
+with open('input/day07.txt') as f:
     lines = [line for line in f.read().splitlines()]
 
 

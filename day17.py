@@ -1,6 +1,6 @@
 import heapq
 
-with open('res/day17.txt', 'r') as f:
+with open('input/day17.txt', 'r') as f:
     GRID = []
     for idx, line in enumerate(f.read().splitlines()):
         GRID.insert(idx, list(line))

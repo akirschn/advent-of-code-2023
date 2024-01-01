@@ -1,6 +1,6 @@
 import itertools
 
-with open('res/day11.txt', 'r') as f:
+with open('input/day11.txt', 'r') as f:
     L = f.read().split('\n')
     G = [[c for c in r] for r in L]
     R = len(G)

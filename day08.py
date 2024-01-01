@@ -1,7 +1,7 @@
 import math
 import re
 
-with open('res/day08.txt', 'r') as f:
+with open('input/day08.txt', 'r') as f:
     data = f.read()
     instructions_raw, nodes_raw = data.split('\n\n')
     INSTRUCTIONS = list(instructions_raw)
